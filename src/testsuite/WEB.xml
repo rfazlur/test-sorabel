@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Test" verbose="1">
+    <parameter name="browser" value="FIREFOX"/>
+
+    <test name="Run Login Test">
+        <classes>
+            <class name="Login.TestLogin"/>
+        </classes>
+    </test>
+</suite>
